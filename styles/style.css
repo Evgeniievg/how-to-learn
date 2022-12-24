@@ -82,6 +82,7 @@
 .two-columns{
   display: flex;
   width: 80%;
+  min-width: 784px;
   margin: auto;
   align-items: flex-start;
   justify-content: space-between;
@@ -101,7 +102,7 @@
   font-size: 24px;
   font-weight: normal;
   width: 80%;
-  min-width: 784px;
+  min-width: 785px;
 }
 
 .two-columns__span-accent{
@@ -164,6 +165,9 @@
 
 .table-text_space{
   margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .feynman{
@@ -273,6 +277,7 @@
   height: 300px;;
   margin: auto;
   justify-content: space-between;
+  border: 2px red solid;
 }
 
 .footer__column_content_copyright{
