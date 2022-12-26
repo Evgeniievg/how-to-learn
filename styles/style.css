@@ -15,7 +15,8 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
-  background-color: rgb(228, 228, 228);
+  background-color: #f2f2f2;
+  position: relative;
 }
 
 .logo{
@@ -62,7 +63,7 @@
 
 .header__link{
   text-decoration: none;
-  color: rgb(48, 48, 255);
+  color: #2f80ed;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -70,7 +71,7 @@
   position: absolute;
   height: 568px;
   width: 568px;
-  background-color: blue;
+  background-color: #2f80ed;
   right: 0;
   top: 64px;
 }
@@ -89,12 +90,14 @@
 }
 
 .two-columns__brief{
+  width: 175px;
+}
+
+.two-columns__brief_title{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: rgb(68, 68, 255);
-  width: 175px;
-
+  color: #2f80ed;
 }
 
 .two-columns__main-text{
@@ -150,7 +153,7 @@
 .table__heading{
   line-height: 1.15;
   font-size: 24px;
-  font-size: 600;
+  font-weight: 600;
 }
 
 .table__text{
@@ -173,6 +176,8 @@
 .feynman{
   height: 890px;
   position: relative;
+  background-color: #f2f2f2;
+  z-index: -1;
 }
 
 .feynman__title{
@@ -201,7 +206,7 @@
   font-weight: normal;
   top: 50%;
   right: 48px;
-  color: rgb(48, 48, 255);
+  color: #2f80ed;
   text-decoration: none;
 }
 
@@ -213,7 +218,7 @@
 }
 
 .kaufman{
-  background-color: black;
+  background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
@@ -264,7 +269,7 @@
 }
 
 .footer{
-  background-color: black;
+  background-color: #1f1f1f;
   position: relative;
   color: white;
   display: flex;
