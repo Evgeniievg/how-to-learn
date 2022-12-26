@@ -34,7 +34,6 @@
   align-self: center;
   margin-left: 64px;
   width: 730px;
-  z-index: 1;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -46,7 +45,6 @@
   align-self: flex-end;
   width: 388px;
   margin: 0 0 30px 64px;
-  z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -280,7 +278,7 @@
 .footer__columns{
   display: flex;
   width: 90%;
-  height: 300px;;
+  height: 300px;
   margin: auto;
   justify-content: space-between;
 }
