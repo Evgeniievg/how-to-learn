@@ -26,6 +26,8 @@
 }
 
 .header__title{
+  padding: 0;
+  margin: 0;
   align-self: center;
   margin-left: 64px;
   max-width: 730px;
@@ -36,6 +38,8 @@
 }
 
 .header__subtitle{
+  padding: 0;
+  margin: 0;
   position: absolute;
   align-self: flex-end;
   max-width: 388px;
@@ -240,8 +244,6 @@
 }
 
 .section-title_theme_dark{
-  padding: 0;
-  margin: 0;
   color: white;
   line-height: 1.15;
   font-size: 60px;
@@ -250,8 +252,6 @@
 }
 
 .section-subtitle_theme_dark{
-  padding: 0;
-  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
