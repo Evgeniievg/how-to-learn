@@ -26,7 +26,6 @@
 }
 
 .header__title{
-  padding: 0;
   margin: 0;
   align-self: center;
   margin-left: 64px;
@@ -38,7 +37,6 @@
 }
 
 .header__subtitle{
-  padding: 0;
   margin: 0;
   position: absolute;
   align-self: flex-end;
@@ -87,7 +85,6 @@
 }
 
 .two-columns__brief{
-  padding: 0;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -114,12 +111,10 @@
 }
 
 .two-columns__paragraph{
-  padding: 0;
   margin: 0;
 }
 
 .section-title{
-  padding: 0;
   margin: 0;
   width: 60%;
   margin: auto;
@@ -131,7 +126,6 @@
 }
 
 .section-subtitle{
-  padding: 0;
   margin: 0;
   width: 60%;
   margin: auto;
@@ -155,7 +149,6 @@
 }
 
 .table__heading{
-  padding: 0;
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -164,7 +157,6 @@
 }
 
 .table__text{
-  padding: 0;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -172,7 +164,6 @@
 }
 
 .table-text_space{
-  padding: 0;
   margin: 0;
   margin-top: 20px;
   line-height: 1.2;
@@ -181,7 +172,6 @@
 }
 
 .table-text_space_bottom{
-  padding: 0;
   margin: 0;
   margin-bottom: 100px;
   margin-top: 20px;
@@ -199,7 +189,6 @@
 }
 
 .feynman__title{
-  padding: 0;
   margin: 0;
   max-width: 648px;
   margin: auto;
@@ -211,7 +200,6 @@
 }
 
 .feynman__subtitle{
-  padding: 0;
   margin: 0;
   margin: auto;
   text-align: center;
@@ -221,7 +209,6 @@
 }
 
 .feynman__link{
-  padding: 0;
   margin: 0;
   position: absolute;
   line-height: 51px;
@@ -257,7 +244,6 @@
 }
 
 .table__heading_theme_dark{
-  padding: 0;
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -266,7 +252,6 @@
 }
 
 .table__text_theme_dark{
-  padding: 0;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -314,7 +299,6 @@
 }
 
 .footer__author{
-  padding: 0;
   margin: 0;
   display: flex;
   color: white;
@@ -326,7 +310,6 @@
 }
 
 .footer__column-heading{
-  padding: 0;
   margin: 0;
   font-size: 18px;
   font-weight: 600;
@@ -340,7 +323,6 @@
 }
 
 .footer__column-link{
-  padding: 0;
   margin: 0;
   line-height: 30px;
   font-size: 18px;
