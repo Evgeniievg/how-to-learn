@@ -37,7 +37,6 @@
 }
 
 .header__subtitle{
-  margin: 0;
   position: absolute;
   align-self: flex-end;
   max-width: 388px;
@@ -115,7 +114,6 @@
 }
 
 .section-title{
-  margin: 0;
   width: 60%;
   margin: auto;
   margin-bottom: 20px;
@@ -126,7 +124,6 @@
 }
 
 .section-subtitle{
-  margin: 0;
   width: 60%;
   margin: auto;
   text-align: center;
@@ -189,7 +186,6 @@
 }
 
 .feynman__title{
-  margin: 0;
   max-width: 648px;
   margin: auto;
   text-align: center;
@@ -200,7 +196,6 @@
 }
 
 .feynman__subtitle{
-  margin: 0;
   margin: auto;
   text-align: center;
   line-height: 51px;
