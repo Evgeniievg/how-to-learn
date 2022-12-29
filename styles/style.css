@@ -283,7 +283,7 @@
 .footer__columns{
   display: flex;
   width: 90%;
-  height: 300px;
+  min-height: 250px;
   margin: auto;
   justify-content: space-between;
 }
@@ -307,6 +307,7 @@
 .footer__column-heading{
   margin: 0;
   font-size: 18px;
+  line-height: 30px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -314,22 +315,21 @@
 .footer__column-links{
   display: flex;
   flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   margin-bottom: 16px;
 }
 
 .footer__column-link{
+  list-style: none;
   margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
   text-decoration: none;
-}
-
-ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .footer__social-icon{
