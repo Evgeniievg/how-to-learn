@@ -1,3 +1,46 @@
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place_header/logo_place_header.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/cards/cards.css);
+@import url(../blocks/techniques/cards/__title/cards__title.css);
+@import url(../blocks/techniques/cards/__item/cards__item.css);
+@import url(../blocks/techniques/cards/__image/cards__image.css);
+@import url(../blocks/techniques/cards/__description/cards__description.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__container/__title/khan__title);
+@import url(../blocks/khan/__container/__quote/khan__quote.css);
+@import url(../blocks/khan/__container/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__container/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__container/__author/khan__author.css);
+@import url(../blocks/khan/__container/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__container/__book-container/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__container/__book-container/__buy-link/khan__buy-link.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/two-columns/two-columns.css);
+@import url(../blocks/description/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
+
+
+
+
+
+
+
+
+
 @keyframes rotation{
   from {
     transform: rotate(0deg);
@@ -12,257 +55,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  background-color: #f2f2f2;
-  position: relative;
-  overflow: hidden;
-}
-
-.logo{
-  position: absolute;
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header{
-  top: 30px;
-  left: 64px;
-}
-
-.header__title{
-  margin: 0;
-  align-self: center;
-  margin-left: 64px;
-  max-width: 730px;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  z-index: 2;
-}
-
-.header__subtitle{
-  position: absolute;
-  align-self: flex-end;
-  max-width: 388px;
-  margin: 0 0 30px 64px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 2;
-}
-
-.header__main-illustration{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 765px;
-  height: 608px;
-  z-index: 1;
-}
-
-.header__link{
-  text-decoration: none;
-  color: #2f80ed;
-  transition: .3s ease;
-}
-
-.header__link:hover{
-  opacity: .7;
-}
-
-.header__square-pic {
-  position: absolute;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  right: 0;
-  top: 64px;
-}
-
-.techniques{
-  display: flex;
-  width: 80%;
-  flex-direction: column;
-  margin: auto;
-  padding-top: 100px;
-}
-
-.cards{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: auto;
-}
-
-.cards__item{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 240px;
-  margin: 0 50px;
-}
-
-.cards__image{
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  margin: 60px 40px 43px 40px;
-}
-
-.cards__title{
-  margin: 0;
-  margin-bottom: 16px;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.cards__description{
-  margin: 0;
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.video{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  transform: translate(0, 50px);
-  padding-top: 50px;
-}
-
-.video__iframes{
-  display: flex;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.video__iframe{
-  margin-right: 20px;
-}
-
-.oakley{
-  background-color: #f2f2f2;
-  padding-top: 160px;
-}
-
-.khan{
-  background-color: #f2f2f2;
-  padding-top: 105px;
-  display: flex;
-  flex-direction: column;
-}
-
-.khan__container{
-  width: 80%;
-  margin: auto;
-}
-
-.khan__author{
-  margin: 0;
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-}
-
-.khan__title{
-  margin: 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.khan__quote{
-  display: block;
-  max-width: 790px;
-  margin: 50px 0 36px 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.khan__quote-author{
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.khan__quote-author-subline{
-  margin: 10px 0 68px 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.khan__book-container{
-  display: flex;
-}
-
-.khan__book-pic{
-  max-width: 620px;
-  max-height: 608px;
-  margin-right: 48px;
-}
-
-.khan__buy-link{
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  color: #2f80ed;
-  margin: 0;
-  padding: 0;
-}
-
-.description{
-  margin-top: 100px;
-}
-
-.two-columns{
-  display: flex;
-  width: 80%;
-  min-width: 784px;
-  margin: auto;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.two-columns__brief{
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  width: 175px;
-}
-
-.two-columns__main-text{
-  display: flex;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 80%;
-  min-width: 785px;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.two-columns__span-accent{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.two-columns__paragraph{
-  margin: 0;
 }
 
 .section-title{

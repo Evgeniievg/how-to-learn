@@ -1,0 +1,7 @@
+.video{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: translate(0, 50px);
+  padding-top: 50px;
+}
