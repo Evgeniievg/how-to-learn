@@ -32,6 +32,17 @@
 @import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/table/table.css);
+@import url(../blocks/digits/table/__cell/table__cell.css);
+@import url(../blocks/digits/table/__heading/table__heading.css);
+@import url(../blocks/digits/table/__text/table__text.css);
+@import url(../blocks/digits/table/__text/_space/table-text_space.css);
+@import url(../blocks/digits/table/__text/_space/_bottom/table-text_space_bottom.css);
 
 
 
@@ -74,98 +85,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.digits{
-  padding-top: 100px;
-}
-
-.table{
-  display: flex;
-  width: 1100px;
-  margin: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.table__cell{
-  width: 250px;
-  margin-top: 60px;
-}
-
-.table__heading{
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.table__text{
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-text_space{
-  margin: 0;
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table-text_space_bottom{
-  margin: 0;
-  margin-bottom: 100px;
-  margin-top: 20px;
-}
-
-
-.feynman{
-  min-height: 790px;
-  position: relative;
-  background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  padding-top: 100px;
-}
-
-.feynman__title{
-  max-width: 648px;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 70px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-}
-
-.feynman__subtitle{
-  margin: auto;
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
-
-.feynman__link{
-  margin: 0;
-  position: absolute;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  top: 50%;
-  right: 48px;
-  color: #2f80ed;
-  text-decoration: none;
-  transition: .3s ease;
-}
-
-.feynman__link:hover{
-  opacity: .7;
 }
 
 .kaufman{
