@@ -4,4 +4,7 @@
   flex-direction: row;
   justify-content: flex-start;
   margin: auto;
+  padding: 0;
+  column-gap: 100px;
+  max-width: 920px;
 }
