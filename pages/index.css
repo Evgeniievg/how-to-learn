@@ -56,8 +56,6 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_space/table-text_space.css);
-@import url(../blocks/table/__text/_space/_bottom/table-text_space_bottom.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__item/cards__item.css);
